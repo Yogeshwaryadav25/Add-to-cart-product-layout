@@ -57,7 +57,7 @@ function initapp(){
         let newDiv = document.createElement('div');
         newDiv.classList.add('item');
         newDiv.innerHTML = `
-          <img src="/${value.image}"/>
+          <img src="/${value.images}"/>
           <div class="title">${value.name}</div
           <div class="price">${value.price.toLocaleString()}</div>
           <button oneclick="addToCard(${key})">Add To Card</button>
@@ -112,3 +112,4 @@ function changequantity(key, quantity){
     reloadcard();
 
 }
+
