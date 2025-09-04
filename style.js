@@ -16,37 +16,37 @@ let products = [
     {
         id: 1,
         name:'PRODUCT NAME 1',
-        image:'1.png',
+        images:'1.png',
         price: 5000
     },
     {
         id: 2,
         name:'PRODUCT NAME 2',
-        image:'2.png',
+        images:'2.png',
         price: 6000
     },
     {
         id: 3,
         name:'PRODUCT NAME 3',
-        image:'3.png',
+        images:'3.png',
         price: 7000
     },
     {
         id: 4,
         name:'PRODUCT NAME 4',
-        image:'4.png',
+        images:'4.png',
         price: 5000
     },
     {
         id: 5,
         name:'PRODUCT NAME 5',
-        image:'5.png',
+        images:'5.png',
         price: 5000
     },
     {
         id: 6,
         name:'PRODUCT NAME 6',
-        image:'6.png',
+        images:'6.png',
         price: 5000
     },
 ];
@@ -110,4 +110,5 @@ function changequantity(key, quantity){
 
     }
     reloadcard();
+
 }
